@@ -4,7 +4,10 @@
              x:Class="EntryTutorial.MainPage">
 
     <StackLayout Margin="20, 35, 20, 20">
-		<Entry Placeholder="Enter Text"/>
+		<Entry Placeholder="Enter Password"
+			   IsSpellCheckEnabled="False"
+			   IsTextPredictionEnabled="False"
+			   IsPassword="True" />
 	</StackLayout>
 
 </ContentPage>
